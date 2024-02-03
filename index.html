@@ -123,8 +123,14 @@ body {
 }
 
 
+.blog .news-date {
+	top: 0;
+	left: auto;
+	right: 0;
+	border-radius: 0 0.3em 0 0;
+}
 .blog .entry-meta {
-	margin-bottom: -5px;
+	margin: -5px 0;
 }
 .blog .entry-meta .author a
 {
@@ -137,6 +143,36 @@ body {
 	margin: 0;
 }
 
+body.theme-dark .home-news.blog .blog-head {
+  background-color: rgb(34, 32, 43);
+  border-radius: 0.3em 0.3em 0 0;
+	margin-right: 20px;
+}
+body.theme-dark .home-news.blog .full-content {
+  background-color: #161420;
+  border-radius: 0.3em 0.3em 0 0;
+}
+.blog .entry-content {
+	margin-bottom: 0;
+}
+
+#blog-selector-scroll .row .thm-btn {
+	margin: 2em;
+}
+
+
+.team-caption {
+	padding: 0.5em 0.8em;
+  border-radius: 0.5em 0.5em 0 0;
+}
+.theme-dark .team-caption
+{
+  background-color: rgba(31, 29, 43, 0.71);
+}
+.team-overlay-inner {
+	margin-left: 0.8em;
+}
+
 
 .footer .footer-copyrights .container {
 	padding: 0;
@@ -144,7 +180,7 @@ body {
 		
 	</head>
 	
-	<body class="home page-template page-template-page-templates page-template-frontpage page-template-page-templatesfrontpage-php page page-id-7 wp-custom-logo wp-embed-responsive wide singular enable-search-modal missing-post-thumbnail has-no-pagination not-showing-comments show-avatars frontpage footer-top-hidden theme-dark">
+	<body class="home page-template page-template-page-templates page-template-frontpage page-template-page-templatesfrontpage-php page page-id-7 wp-custom-logo wp-embed-responsive wide singular enable-search-modal missing-post-thumbnail has-no-pagination not-showing-comments show-avatars frontpage footer-top-visible theme-dark">
 		<!-- Loading Icon -->
 					<!-- Page Loader Anim -->
 			<div class="page-loader">
@@ -192,10 +228,26 @@ body {
 
 									<ul class="primary-menu reset-list-style menu">
 
-										<li class="page_item page-item-7 current_page_item"><a href="/" aria-current="page">Accueil</a></li>
-<li class="page_item page-item-8"><a href="/blog/">News</a></li>
-<li class="page_item page-item-3"><a href="/privacy-policy/">Politique de confidentialité</a></li>
-<li class="page_item page-item-2"><a href="/doc/">Utilisation</a></li>
+										<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-47"><a href="/" aria-current="page">Accueil</a></li>
+<li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50"><a href="/doc/">Utilisation</a></li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-48">
+<a href="/blog/">News</a><span class="icon"></span>
+<ul class="sub-menu">
+	<li id="menu-item-53" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53"><a href="/category/societe/">Société Iliad</a></li>
+	<li id="menu-item-52" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52"><a href="/category/update/">Mises à jours</a></li>
+	<li id="menu-item-51" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-51"><a href="/category/autre/">Autres news</a></li>
+</ul>
+</li>
+<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-56">
+<a href="/a-propos/">A propos</a><span class="icon"></span>
+<ul class="sub-menu">
+	<li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="/conditions-dutilisation/">Conditions d’utilisation</a></li>
+	<li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-49"><a rel="privacy-policy" href="/privacy-policy/">Politique de confidentialité</a></li>
+	<li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="/emplois/">Emplois</a></li>
+	<li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="/notre-statut/">Notre statut</a></li>
+</ul>
+</li>
+<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="/compte/">Compte</a></li>
 
 									</ul>
 
@@ -256,20 +308,40 @@ body {
 
 						<ul class="modal-menu reset-list-style menu">
 
-						<li class="page_item page-item-7 current_page_item">
+						<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-43">
 <div class="ancestor-wrapper"><a href="/" aria-current="page">Accueil</a></div>
 <!-- .ancestor-wrapper -->
 </li>
-<li class="page_item page-item-8">
+<li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
+<div class="ancestor-wrapper"><a href="/doc/">Utilisation</a></div>
+<!-- .ancestor-wrapper -->
+</li>
+<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44">
 <div class="ancestor-wrapper"><a href="/blog/">News</a></div>
 <!-- .ancestor-wrapper -->
 </li>
-<li class="page_item page-item-3">
-<div class="ancestor-wrapper"><a href="/privacy-policy/">Politique de confidentialité</a></div>
+<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-55">
+<div class="ancestor-wrapper">
+<a href="/a-propos/">A propos</a><button class="toggle sub-menu-toggle fill-children-current-color" data-toggle-target=".menu-modal .menu-item-55 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250" aria-expanded="false"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewbox="0 0 20 12"><polygon fill="" fill-rule="evenodd" points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358" transform="translate(-1310 -358)"></polygon></svg></button>
+</div>
+<!-- .ancestor-wrapper -->
+<ul class="sub-menu">
+	<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59">
+<div class="ancestor-wrapper"><a href="/conditions-dutilisation/">Conditions d’utilisation</a></div>
 <!-- .ancestor-wrapper -->
 </li>
-<li class="page_item page-item-2">
-<div class="ancestor-wrapper"><a href="/doc/">Utilisation</a></div>
+	<li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-45">
+<div class="ancestor-wrapper"><a rel="privacy-policy" href="/privacy-policy/">Politique de confidentialité</a></div>
+<!-- .ancestor-wrapper -->
+</li>
+	<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79">
+<div class="ancestor-wrapper"><a href="/notre-statut/">Notre statut</a></div>
+<!-- .ancestor-wrapper -->
+</li>
+</ul>
+</li>
+<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89">
+<div class="ancestor-wrapper"><a href="/compte/">Compte</a></div>
 <!-- .ancestor-wrapper -->
 </li>
 
@@ -670,7 +742,7 @@ body {
 									</div>
 									<div class="entry-meta">
 										<span class="byline">By										<span class="author vcard">
-											<a class="url fn n" href="/author/dim/">Dim</a>	
+											<a class="url fn n" href="/author/dim/">Dimitri Roptin</a>	
 										</span></span>
 									</div>	
 									<header class="entry-header">		
@@ -679,7 +751,7 @@ body {
 																		</div>
 								<div class="full-content">
 									<div class="entry-content">
-										<p>Cette mise à jours 2.4 de Iliad est avant tout orienté accessibilité. Elle comprend la refonte de l&rsquo;interface graphique, l&rsquo;ajout de descriptions de mots clés lié à des illustrations plus</p>
+										<p>Cette mise à jours 2.4 de Iliad est avant tout orienté accessibilité. Elle comprend la refonte de l&rsquo;interface graphique, l&rsquo;ajout de descriptions de mots clés lié à des illustrations plus adapté au contexte d&rsquo;utilisation. L&rsquo;optimisation</p>
 <p><a href="/mise-a-jours-2-4/" class="more-link">lire la suite<span class="screen-reader-text">Mise à jours 2.4</span></a></p>
 									</div>
 								</div>
@@ -694,7 +766,7 @@ body {
 									</div>
 									<div class="entry-meta">
 										<span class="byline">By										<span class="author vcard">
-											<a class="url fn n" href="/author/dim/">Dim</a>	
+											<a class="url fn n" href="/author/dim/">Dimitri Roptin</a>	
 										</span></span>
 									</div>	
 									<header class="entry-header">		
@@ -703,7 +775,7 @@ body {
 																		</div>
 								<div class="full-content">
 									<div class="entry-content">
-										<p>Iliad a besoin de nouveaux experts en cybersécurité et en deep learning orienté LLM. Nous souhaitons agrandir notre équipe afin de rendre nos outils plus scalable pour pouvoir faire face</p>
+										<p>Iliad a besoin de nouveaux experts en cybersécurité et en deep learning orienté LLM. Nous souhaitons agrandir notre équipe afin de rendre nos outils plus scalable pour pouvoir faire face à l&rsquo;augmentation du nombre de</p>
 <p><a href="/nous-embauchons/" class="more-link">lire la suite<span class="screen-reader-text">Nous embauchons</span></a></p>
 									</div>
 								</div>
@@ -718,17 +790,17 @@ body {
 									</div>
 									<div class="entry-meta">
 										<span class="byline">By										<span class="author vcard">
-											<a class="url fn n" href="/author/dim/">Dim</a>	
+											<a class="url fn n" href="/author/dim/">Dimitri Roptin</a>	
 										</span></span>
 									</div>	
 									<header class="entry-header">		
-										<h3 class="entry-title"><a href="/nouveau-site/">Notre site web est mise à jours</a></h3>	
+										<h3 class="entry-title"><a href="/nouveau-site/">La refonte de notre site web</a></h3>	
 									</header>
 																		</div>
 								<div class="full-content">
 									<div class="entry-content">
-										<p>Nous sommes heureux de vous présenté la toute dernière refonte de notre site web. Autrefois basé uniquement sur du html et css manuel, on s&rsquo;est cette fois aidé de wordpress.</p>
-<p><a href="/nouveau-site/" class="more-link">lire la suite<span class="screen-reader-text">Notre site web est mise à jours</span></a></p>
+										<p>Nous sommes heureux de vous présenté la toute dernière version de notre site web. Autrefois basé uniquement sur du html et css manuel, on s&rsquo;est cette fois aidé de wordpress. Ce qui nous a permis</p>
+<p><a href="/nouveau-site/" class="more-link">lire la suite<span class="screen-reader-text">La refonte de notre site web</span></a></p>
 									</div>
 								</div>
 							</article>
@@ -761,7 +833,7 @@ body {
 												<div class="item wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
 								<div class="team-module">
 									<figure class="team-avatar">
-																						<a href="#"><img class="img-responsive" src="/wp-content/plugins/awp-companion/inc/formula/img/team/team-2.png" alt="Luc" title="Luc"></a>																			</figure>
+																						<a href="#"><img class="img-responsive" src="/wp-content/plugins/awp-companion/inc/formula/img/team/team-2.png" alt="Luc LE GAILLARD" title="Luc LE GAILLARD"></a>																			</figure>
 									<figcaption class="team-caption text-center">
 										<div class="team-overlay">
 											<div class="team-overlay-inner">
@@ -772,7 +844,7 @@ body {
 																																		<a href="http://twitter.com/" class="facebook">
 																		<i class="fab fa-twitter "></i>
 																	</a>														
-																																		<a href="http://linkedin.com/" class="facebook">
+																																		<a href="https://www.linkedin.com/in/luc-le-gaillard" class="facebook">
 																		<i class="fab fa-linkedin "></i>
 																	</a>														
 																													</div>
@@ -781,7 +853,7 @@ body {
 																					<p class="designation">Expert en IA et conseiller financier</p>
 										
 																																	<a href="#">
-													<h4 class="name">Luc</h4>
+													<h4 class="name">Luc LE GAILLARD</h4>
 												</a>
 																														</figcaption>
 								</div>
@@ -789,7 +861,7 @@ body {
 														<div class="item wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
 								<div class="team-module">
 									<figure class="team-avatar">
-																						<a href="#"><img class="img-responsive" src="/wp-content/plugins/awp-companion/inc/formula/img/team/team-1.png" alt="Harmonie" title="Harmonie"></a>																			</figure>
+																						<a href="#"><img class="img-responsive" src="/wp-content/plugins/awp-companion/inc/formula/img/team/team-1.png" alt="Harmonie BERTUCCI" title="Harmonie BERTUCCI"></a>																			</figure>
 									<figcaption class="team-caption text-center">
 										<div class="team-overlay">
 											<div class="team-overlay-inner">
@@ -809,7 +881,7 @@ body {
 																					<p class="designation">Directrice et responsable de la cohésion de groupe</p>
 										
 																																	<a href="#">
-													<h4 class="name">Harmonie</h4>
+													<h4 class="name">Harmonie BERTUCCI</h4>
 												</a>
 																														</figcaption>
 								</div>
@@ -828,7 +900,7 @@ body {
 																																		<a href="http://twitter.com/" class="facebook">
 																		<i class="fab fa-twitter "></i>
 																	</a>														
-																																		<a href="http://linkedin.com/" class="facebook">
+																																		<a href="https://www.linkedin.com/in/dimitri-roptin-a0bb0b2a0/" class="facebook">
 																		<i class="fab fa-linkedin "></i>
 																	</a>														
 																													</div>

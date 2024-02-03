@@ -12,7 +12,7 @@
 	<atom:link href="/category/autre/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sat, 03 Feb 2024 11:24:10 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 03 Feb 2024 14:02:50 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,18 +28,18 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Notre site web est mise à jours</title>
+		<title>La refonte de notre site web</title>
 		<link>/nouveau-site/</link>
 					<comments>/nouveau-site/#comments</comments>
 		
-		<dc:creator><![CDATA[Dim]]></dc:creator>
+		<dc:creator><![CDATA[Dimitri Roptin]]></dc:creator>
 		<pubDate>Fri, 02 Feb 2024 22:11:46 +0000</pubDate>
 				<category><![CDATA[Autre]]></category>
 		<guid isPermaLink="false">/?p=1</guid>
 
-					<description><![CDATA[Nous sommes heureux de vous présenté la toute dernière refonte de notre site web. Autrefois basé uniquement sur du html et css manuel, on s&#8217;est cette fois aidé de wordpress.<p><a href="/nouveau-site/" class="more-link">lire la suite<span class="screen-reader-text">Notre site web est mise à jours</span></a></p>]]></description>
+					<description><![CDATA[Nous sommes heureux de vous présenté la toute dernière version de notre site web. Autrefois basé uniquement sur du html et css manuel, on s&#8217;est cette fois aidé de wordpress. Ce qui nous a permis<p><a href="/nouveau-site/" class="more-link">lire la suite<span class="screen-reader-text">La refonte de notre site web</span></a></p>]]></description>
 										<content:encoded><![CDATA[
-<p>Nous sommes heureux de vous présenté la toute dernière refonte de notre site web.</p>
+<p>Nous sommes heureux de vous présenté la toute dernière version de notre site web.</p>
 
 
 

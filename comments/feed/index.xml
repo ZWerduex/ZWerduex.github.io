@@ -11,7 +11,7 @@
 	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sat, 03 Feb 2024 11:24:10 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 03 Feb 2024 14:02:50 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -19,7 +19,7 @@
 	<generator>https://wordpress.org/?v=6.4.3</generator>
 	<item>
 		<title>
-		Commentaires sur Notre site web est mise à jours par A WordPress Commenter		</title>
+		Commentaires sur La refonte de notre site web par A WordPress Commenter		</title>
 		<link>/nouveau-site/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>

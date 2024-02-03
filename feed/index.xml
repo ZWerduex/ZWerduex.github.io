@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Fri, 02 Feb 2024 22:11:46 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 03 Feb 2024 11:33:57 +0000</lastBuildDate>
 	<language>fr-FR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,21 +28,69 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Hello world!</title>
-		<link>/hello-world/</link>
-					<comments>/hello-world/#comments</comments>
+		<title>Mise à jours 2.4</title>
+		<link>/mise-a-jours-2-4/</link>
+					<comments>/mise-a-jours-2-4/#respond</comments>
+		
+		<dc:creator><![CDATA[Dim]]></dc:creator>
+		<pubDate>Sat, 03 Feb 2024 11:33:57 +0000</pubDate>
+				<category><![CDATA[Mise à jours]]></category>
+		<guid isPermaLink="false">/?p=27</guid>
+
+					<description><![CDATA[Cette mise à jours 2.4 de Iliad est avant tout orienté accessibilité. Elle comprend la refonte de l&#8217;interface graphique, l&#8217;ajout de descriptions de mots clés lié à des illustrations plus<p><a href="/mise-a-jours-2-4/" class="more-link">lire la suite<span class="screen-reader-text">Mise à jours 2.4</span></a></p>]]></description>
+										<content:encoded><![CDATA[
+<p>Cette mise à jours 2.4 de Iliad est avant tout orienté accessibilité. Elle comprend la refonte de l&rsquo;interface graphique, l&rsquo;ajout de descriptions de mots clés lié à des illustrations plus adapté au contexte d&rsquo;utilisation. L&rsquo;optimisation des performances.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/mise-a-jours-2-4/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Nous embauchons</title>
+		<link>/nous-embauchons/</link>
+					<comments>/nous-embauchons/#respond</comments>
+		
+		<dc:creator><![CDATA[Dim]]></dc:creator>
+		<pubDate>Sat, 03 Feb 2024 11:30:42 +0000</pubDate>
+				<category><![CDATA[Société Iliad]]></category>
+		<guid isPermaLink="false">/?p=25</guid>
+
+					<description><![CDATA[Iliad a besoin de nouveaux experts en cybersécurité et en deep learning orienté LLM. Nous souhaitons agrandir notre équipe afin de rendre nos outils plus scalable pour pouvoir faire face<p><a href="/nous-embauchons/" class="more-link">lire la suite<span class="screen-reader-text">Nous embauchons</span></a></p>]]></description>
+										<content:encoded><![CDATA[
+<p>Iliad a besoin de nouveaux experts en cybersécurité et en deep learning orienté LLM. Nous souhaitons agrandir notre équipe afin de rendre nos outils plus scalable pour pouvoir faire face à l&rsquo;augmentation du nombre de nos utilisateurs.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/nous-embauchons/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Notre site web est mise à jours</title>
+		<link>/nouveau-site/</link>
+					<comments>/nouveau-site/#comments</comments>
 		
 		<dc:creator><![CDATA[Dim]]></dc:creator>
 		<pubDate>Fri, 02 Feb 2024 22:11:46 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[Autre]]></category>
 		<guid isPermaLink="false">/?p=1</guid>
 
-					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
+					<description><![CDATA[Nous sommes heureux de vous présenté la toute dernière refonte de notre site web. Autrefois basé uniquement sur du html et css manuel, on s&#8217;est cette fois aidé de wordpress.<p><a href="/nouveau-site/" class="more-link">lire la suite<span class="screen-reader-text">Notre site web est mise à jours</span></a></p>]]></description>
 										<content:encoded><![CDATA[
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<p>Nous sommes heureux de vous présenté la toute dernière refonte de notre site web.</p>
+
+
+
+<p>Autrefois basé uniquement sur du html et css manuel, on s&rsquo;est cette fois aidé de wordpress. Ce qui nous a permis d&rsquo;utiliser et de combiner une variété de styles et d&rsquo;animations différentes sans avoir à construire manuellement chacun des éléments.</p>
+
+
+
+<p>Notre site n&rsquo;a jamais été aussi beau et aussi fidèle au message que nous voulons passer.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>/nouveau-site/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
